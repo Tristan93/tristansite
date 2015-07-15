@@ -1,0 +1,297 @@
+/*Media Query*/
+
+@media only screen and (min-width: 320px) and (max-width: 540px) {
+  .container p, #slide3 p, #slide4 li {
+    font-size: 10vw;
+    line-height:9vw; 
+  }
+
+  .paragraph1 p {
+    top: 50%;
+    font-size: 7vw;
+    line-height: 7vw;
+  }
+
+   #slide2 p {
+    font-size: 5vw;
+    position: relative;
+    width: 90%;
+   }
+
+  header {
+    width: 100%;
+    height:8%;
+    background: #000;
+    position: fixed;
+    opacity: 1;
+  }
+
+  header h1 {
+    width: 0%;
+    font-size: 0%;
+  }
+
+  .menu {
+    padding-top: 1%;
+    width:100%;
+    left: 0%;
+  }
+
+  #nav ul {
+    width: 99%;
+  }
+
+  #nav li a {
+    font-size: 7vw;
+    width:99%;
+    font-style: bold;
+  }
+
+  .jumbotron img {
+    width:50%;
+    top: -58vw;
+    border-width: 3vw;
+  }
+
+  .jumbotron2 img {
+    width:0%;
+    border: none;
+  }
+
+  #slide2 h1, #slide3 h1, #slide4 h1 {
+  font-size: 16vw;
+  padding: 20% 0 3% 0;
+    }
+
+.buttons {
+  display: inline-block;
+  max-width: 100%;
+  width: 99%;
+  margin: 0 auto;
+
+    }
+
+.buttons ul {
+  display: inline-block;
+  list-style-type: none;
+  max-width: 100%;
+  width:98%;
+  height: 70%;
+  margin:0 auto;
+  padding:0;
+
+}
+
+.buttons li {
+  display: inline-block;
+  max-width: 100%;
+  width:60%;
+  height:17%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.buttons a {
+  display: inline-block;
+  max-width:100%;
+  width:40%;
+  height:50%;
+  font-size: 40%;
+  border: none;
+  color: black;
+  margin: 0 auto;  
+  padding: 5%;
+}
+
+footer {
+  width:100%;
+  height:23px;
+  font-size: 4vw;
+}
+   #slide1 {
+    background: linear-gradient(rgba(123, 123 ,123  , .8), rgba(123,123,123 , .5)), url(img/newyorkcity.jpg); }
+
+#slide1 {
+    color: #fff;
+    width:100%;
+    height:640px;
+    background-size: cover;
+}
+
+#slide2{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 850px;
+    margin: 0;
+    
+}
+ 
+#slide3{
+    background: linear-gradient(rgba(123, 123 ,123  , .8), rgba(123,123,123 , .5)), url(img/workspace.jpg);}
+
+#slide3{    
+    color: #fff;
+    width: 100%;
+    height: 670px;
+    margin: 0;
+    background-size: cover;
+}
+ 
+#slide4{
+    background-color: #000;
+    width: 100%;
+    height: 700px;
+    color: #333333;
+    margin: 0 auto;
+}
+}
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+/*iphone 6*/
+  .paragraph1 p, #slide3 p, #slide4 li, #slide2 p {
+    font-size: 10vw;
+    line-height:9vw; 
+    }
+
+  .paragraph {
+    top:42%;
+  }
+
+  .paragraph1 p {
+    font-weight: bold;
+    font-size: 6vw;
+    line-height: 9vw;
+  }
+
+   #slide2 p {
+    font-size: 6.5vw;
+    position: absolute;
+    width: 90%;
+    text-shadow: none;
+   }
+
+  header {
+    width: 100%;
+    height:8%;
+    background: #000;
+    position: fixed;
+    opacity: 1.0;
+  }
+
+  header h1 {
+    width: 0%;
+    font-size: 0%;
+  }
+
+  .menu {
+    padding-top: 1%;
+    width:100%;
+    left: 2%;
+  }
+
+  #nav ul {
+    width: 99%;
+  }
+
+  #nav li a {
+    font-size: 7vw;
+    width:99%;
+    font-style: bold;
+  }
+
+  .jumbotron {
+    margin:4% 0;
+  }
+
+  .jumbotron img {
+    border-width: 3vw;
+  }
+
+  .jumbotron2 img {
+    width:0%;
+    border: none;
+  }
+
+  #slide2 h1, #slide3 h1, #slide4 h1 {
+  font-size: 16vw;
+  padding: 20% 0 0 0;
+    }
+
+.buttons {
+  max-width: 100%;
+  width: 95%;
+  margin: 0;
+    }
+
+.buttons ul {
+  list-style-type: none;
+  max-width: 100%;
+  width:100%;
+  height: 50%;
+  margin:0;
+  padding-top: 5%;
+}
+
+.buttons li {
+  display: inline-block;
+  max-width: 100%;
+  width:45%;
+  height:24%;
+  margin: 0;
+  padding-top: 5%;
+  clear: both;
+}
+
+.buttons a {
+  display: inline-block;
+  max-width:100%;
+  width:70%;
+  font-size: 40%;
+  border:solid white;
+  color: black;
+  margin: 0;  
+  padding: 2.5% 0 0 0;
+}
+
+footer {
+  width:100%;
+  height:20px;
+  font-size: 4vw;
+}
+   #slide1 {
+    background: linear-gradient(rgba(123, 123 ,123  , .8), rgba(123,123,123 , .5)), url(img/newyorkcity.jpg); }
+
+#slide1 {
+    color: #fff;
+    height:670px;
+    background-size: cover;
+}
+
+#slide2{
+    background-color: #000;
+    color: #fff;
+    height: 875px;
+    margin: 0;
+    
+}
+ 
+#slide3{
+    background: linear-gradient(rgba(123, 123 ,123  , .8), rgba(123,123,123 , .5)), url(img/workspace.jpg);}
+
+#slide3{    
+    color: #fff;
+    height: 670px;
+    margin: 0;
+    background-size: cover;
+}
+ 
+#slide4{
+    background-color: #000;
+    height: 610px;
+    color: #333333;
+    margin-right: 0;
+}
+}

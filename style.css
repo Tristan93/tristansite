@@ -1,0 +1,343 @@
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  width:100%;
+  }
+
+@font-face {
+  font-family: moderne-sans;
+  src: url(MODERNESANS.ttf);
+}
+
+#slide1 {
+    background:linear-gradient(rgba(123, 123 ,123 , .8), rgba(123, 123 ,123 , .5)), url(img/newyorkcity.jpg); }
+
+#slide1 {
+    color: #fff;
+    width:100%;
+    height:900px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#slide2{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height:850px;
+    margin: auto;
+}
+ 
+#slide3{
+    background: linear-gradient(rgba(123, 123 ,123  , .8), rgba(123,123,123 , .5)),url(img/workspace.jpg);}
+
+#slide3{    
+    color: #fff;
+    width: 100%;
+    height:850px;
+    margin: 0;
+    background-size: cover;
+}
+ 
+#slide4{
+    background-color: #000;
+    width: 100%;
+    max-width: 100%;
+    height:690px;
+    color: #333333;
+    margin: 0;
+}
+
+#nav {
+  position: fixed;
+  display: inline;
+  left: 73%;
+  width:40%;
+  top: 0;
+  padding: .75% 0;
+}
+
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+#nav li {
+  text-transform: none;
+  display: inline;
+  
+}
+
+#nav li a {
+  font-family: 'Homenaje', sans-serif;
+  font-weight: ;
+  padding: 0 3% 0;
+  color: #fff;
+  font-size: 1.4vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-left: solid;
+  border-width: .1vw;
+  border-height: .1vw;
+}
+
+#nav li a:hover {
+  color:#990000;
+  text-decoration: none;
+  border-color: white;
+  -webkit-transition: color ease 1s;
+    -moz-transition: color ease 1s;
+    -o-transition: color ease 1s;
+    transition: color ease 1s;
+}
+#nav li a.active {
+  color: #990000;
+  border-color:#fff;
+}
+
+
+
+span:hover {
+  font-size: 4.0vw;
+    -webkit-transition: font-size ease .3s;
+    -moz-transition: font-size ease .3s;
+    -o-transition: font-size ease .3s;
+    transition: font-size ease .3s;
+}
+
+header h1 {
+  color:white;
+  font-family: 'Homenaje', sans-serif;
+  font-weight: 400;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  opacity:1.0;
+  position:fixed;
+  top:0vw;
+  left:1vw;
+  right:2vw;
+  margin:0 0;
+  padding:1%;
+  width: 20%;
+}
+
+.paragraph1 {
+  position: absolute;
+  top:50%;
+  width:100%;
+  padding:3% 0 2% 0;
+
+}
+
+.paragraph1 p {
+  color:#fff;
+  font-family: 'Poly', Georgia, Times, 'Times New Roman', serif;
+  font-size: 3.6vw;
+  padding: 0 2.5%;
+  text-transform: none;
+  text-align: center;
+  font-weight: 400;
+  width:95%;
+  height:40%;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.jumbotron {
+  position: absolute;
+  width: 100%;
+  height: 50;
+  top: 12%;
+  text-align: center;
+  padding: 0 0%;
+
+}
+.jumbotron img {
+  border-radius: 100%;
+  width:20%;
+  height: 50%;
+  top:0%;
+  border: solid;
+  border-width:.5vw;
+  border-color: white;
+  margin: 0 0;
+}
+
+
+.jumbotron img:hover, .jumbotron2 img:hover 
+{
+  cursor:pointer;
+  border-radius: 100%;
+  border-color: #990000;
+ 
+  -webkit-transition: border-radius ease 1s;
+    -moz-transition: border-radius ease 1s;
+    -o-transition: border-radius ease 1s;
+    transition: border-radius ease 1s; 
+}
+
+
+.jumbotron2 img {
+  width: 35%;
+  border:solid;
+  border-width:.5vw;
+  border-color: white;
+  border-radius:30%;
+  text-align: center;
+  position: absolute;
+  right: 7.25%;
+}
+
+#slide2 h1, #slide3 h1, #slide4 h1 {
+  font-family: 'Homenaje', sans-serif; 
+  font-weight: 400;
+  font-size: 6vw;
+  color:#fff;
+  padding: 4% .5%; 
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+ }
+
+ header h1:hover {
+  color: #990000;
+  border-color: white;
+  color: #990000;
+    -webkit-transition: color ease 1s;
+    -moz-transition: color ease 1s;
+    -o-transition: color ease 1s;
+    transition: color ease 1s;
+}
+
+
+#slide2 p, #slide3 p {
+  font-family: 'Poly', Georgia, Times, 'Times New Roman', serif;  
+  font-weight:400;
+  font-size: 1.8vw;
+  text-align: left;
+  color: #fff;
+  margin:0;
+  padding:0;
+  line-height: 160%;
+}
+
+
+#slide2 p {
+ width:45%;
+ padding: 1.5% 2.5% 2.5%;
+ text-align: center;
+ position:absolute;
+}
+
+.buttons {
+  display: inline-block;
+  max-width: 100%;
+  width:100%;
+  height:100%;
+  margin: 0 auto;
+  padding:0;
+  padding-right: 0;
+  text-align: center;
+
+}
+
+.buttons ul {
+  display: inline-block;
+  list-style-type: none;
+  max-width: 100%;
+  width: 80%;
+  height: 70%; 
+  margin:0 auto;
+  padding: 2.5% 0 0 0;
+  text-align: center;
+
+  
+}
+
+.buttons li {  
+  display:inline-block;
+  max-width:100%;
+  width: 30%;
+  height:30%;
+  margin: 0 auto;
+  padding-top: 6%;
+  text-transform: none;
+}
+
+.buttons a {
+  display: inline-block;
+  font-family: 'Homenaje', sans-serif;
+  max-width:100%;
+  width:50%;
+  color: black;
+  font-size: 40%;
+  border: solid;
+  border-color: #fff;
+  border-radius: 4.5%;
+  background-color:#fff;
+  text-decoration: none;
+  margin: 0 auto;
+  padding:5% 7%;
+}
+
+.buttons a:hover {
+  background-color: #aaa;
+  border-color: #aaa;
+  color: #990000;
+
+}
+
+#slide4 #a:hover {
+  font-size:2vw;
+  background-color: #fff;
+  color: black;
+   -webkit-transition: color ease 1s;
+    -moz-transition: color ease 1s;
+    -o-transition: color ease 1s;
+    transition: color ease 1s;
+}
+
+#slide4 li{
+  font-size: 3vw;
+     -webkit-transition: font-size ease 1s;
+    -moz-transition: font-size ease 1s;
+    -o-transition: font-size ease 1s;
+    transition: font-size ease 1s;
+
+}
+
+
+
+body, html, {
+  height: 100%;
+}
+ 
+#slide1 {
+  min-height: 800px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+}
+
+#slide3 {
+  min-height: 800px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+footer {
+  font-family: 'Homenaje', sans-serif;
+  color: white;
+  width: 100%;
+  font-size: 1vw;
+  height: 20px;
+  text-align: center;
+  background-color: #aaa;
+}
+
