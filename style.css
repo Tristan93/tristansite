@@ -5,11 +5,6 @@ body {
   width:100%;
   }
 
-@font-face {
-  font-family: moderne-sans;
-  src: url(MODERNESANS.ttf);
-}
-
 #slide1 {
     background:linear-gradient(rgba(123, 123 ,123 , .8), rgba(123, 123 ,123 , .5)), url(img/newyorkcity.jpg); }
 
@@ -44,7 +39,7 @@ body {
     background-color: #000;
     width: 100%;
     max-width: 100%;
-    height:690px;
+    height:720px;
     color: #333333;
     margin: 0;
 }
@@ -126,7 +121,7 @@ header h1 {
 
 .paragraph1 {
   position: absolute;
-  top:50%;
+  top:54%;
   width:100%;
   padding:3% 0 2% 0;
 
@@ -155,7 +150,7 @@ header h1 {
 
 }
 .jumbotron img {
-  border-radius: 100%;
+  border-radius: 30%;
   width:20%;
   height: 50%;
   top:0%;
@@ -170,7 +165,6 @@ header h1 {
 {
   cursor:pointer;
   border-radius: 100%;
-  border-color: #990000;
  
   -webkit-transition: border-radius ease 1s;
     -moz-transition: border-radius ease 1s;
@@ -231,6 +225,54 @@ header h1 {
  position:absolute;
 }
 
+#websites {
+  max-width: 100%;
+  width:90%;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+#birdsite {
+  max-width: 100%;
+  width: 40%;
+  margin: 0 4.4%;
+  float: left;
+}
+
+#birdsite img {
+  max-width:100%;
+  width:100%;
+  margin:0 0 0 1%;
+}
+
+#slide3 p {
+  max-width: 100%;
+  width:100%;
+  font-size: 1.27vw;
+  text-align: center;
+}
+
+
+#nelsonsite {
+  max-width: 100%;
+  width: 40%;
+  margin: 0 4.4%;
+  float: left;
+}
+
+#nelsonsite img {
+  max-width:100%;
+  width:100%;
+  margin: 0 1% 0 0;
+}
+
+#nelsonsite img, #birdsite img {
+  border:solid white;
+  border-width:.5vw;
+  border-radius: 10%;
+}
+
+
 .buttons {
   display: inline-block;
   max-width: 100%;
@@ -289,15 +331,6 @@ header h1 {
 
 }
 
-#slide4 #a:hover {
-  font-size:2vw;
-  background-color: #fff;
-  color: black;
-   -webkit-transition: color ease 1s;
-    -moz-transition: color ease 1s;
-    -o-transition: color ease 1s;
-    transition: color ease 1s;
-}
 
 #slide4 li{
   font-size: 3vw;

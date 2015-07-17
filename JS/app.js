@@ -24,7 +24,7 @@ var st = $(this).scrollTop(),
     winH = $(this).height(),
     add = 140;
 
-$('#slide2 p, #slide3 p, .jumbotron2 img').each(function(){
+$('#slide2 p, #slide3 p, .jumbotron2 img, #birdsite img, #nelsonsite img').each(function(){
     var pos = $(this).position().top;
 
     if(st + winH >= pos + add){
