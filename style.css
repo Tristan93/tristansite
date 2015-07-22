@@ -260,6 +260,15 @@ header h1 {
   float: left;
 }
 
+#nelsonsite a {
+  text-decoration: none;
+  color: #990000;
+}
+
+#nelsonsite a:visited {
+  color: #990000;
+}
+
 #nelsonsite img {
   max-width:100%;
   width:100%;
@@ -373,4 +382,3 @@ footer {
   text-align: center;
   background-color: #aaa;
 }
-
