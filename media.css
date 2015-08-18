@@ -1,22 +1,39 @@
 /*Media Query*/
 
 @media only screen and (min-width: 320px) and (max-width: 540px) {
-  .container p, #slide3 p, #slide4 li {
+  .paragraph1 p, #slide3 p, #slide4 li, #slide2 p {
     font-size: 10vw;
     line-height:9vw; 
+    }
+
+  .paragraph1 p, #slide3 p {
+    font-weight: bold;
+    font-size: 6vw;
+    line-height: 9vw;
   }
 
-  .paragraph1 p {
-    top: 50%;
-    font-size: 7vw;
-    line-height: 7vw;
+  #birdsite, #nelsonsite {
+    width: 100%;
+    float: none;
+  }
+
+  #birdsite img, #nelsonsite img {
+    width:90%;
+    display: block;
+  }
+
+  #slide3 p {
+    visibility:hidden;
+    line-height:2vw;
+    font-size: .1vw;
+
   }
 
    #slide2 p {
-    font-size: 5vw;
-    position: relative;
+    font-size: 4.5vw;
+    position: absolute;
     width: 90%;
-    left: 0;
+    text-shadow: none;
    }
 
   header {
@@ -24,7 +41,8 @@
     height:8%;
     background: #000;
     position: fixed;
-    opacity: 1;
+    opacity: 1.0;
+    z-index: 9999;
   }
 
   header h1 {
@@ -32,10 +50,10 @@
     font-size: 0%;
   }
 
-  .menu {
+  #nav {
     padding-top: 1%;
     width:100%;
-    left: 0%;
+    left: 2.3%;
   }
 
   #nav ul {
@@ -48,9 +66,11 @@
     font-style: bold;
   }
 
+  .jumbotron {
+    margin:4% 0;
+  }
+
   .jumbotron img {
-    width:50%;
-    top: -58vw;
     border-width: 3vw;
   }
 
@@ -61,52 +81,48 @@
 
   #slide2 h1, #slide3 h1, #slide4 h1 {
   font-size: 16vw;
-  padding: 20% 0 3% 0;
+  padding: 20% 0 0 0;
     }
 
 .buttons {
-  display: inline-block;
   max-width: 100%;
-  width: 99%;
-  margin: 0 auto;
-
+  width: 95%;
+  margin: 0;
     }
 
 .buttons ul {
-  display: inline-block;
   list-style-type: none;
   max-width: 100%;
-  width:98%;
-  height: 70%;
-  margin:0 auto;
-  padding:0;
-
+  width:100%;
+  height: 50%;
+  margin:0;
+  padding-top: 5%;
 }
 
 .buttons li {
   display: inline-block;
   max-width: 100%;
-  width:60%;
-  height:17%;
-  margin: 0 auto;
-  padding: 0;
+  width:45%;
+  height:24%;
+  margin: 0;
+  padding-top: 5%;
+  clear: both;
 }
 
 .buttons a {
   display: inline-block;
   max-width:100%;
-  width:40%;
-  height:50%;
+  width:70%;
   font-size: 40%;
-  border: none;
+  border:solid white;
   color: black;
-  margin: 0 auto;  
-  padding: 5%;
+  margin: 0;  
+  padding: 2.5% 0 0 0;
 }
 
 footer {
   width:100%;
-  height:23px;
+  height:20px;
   font-size: 4vw;
 }
    #slide1 {
@@ -114,16 +130,14 @@ footer {
 
 #slide1 {
     color: #fff;
-    width:100%;
-    height:640px;
+    height:670px;
     background-size: cover;
 }
 
 #slide2{
     background-color: #000;
     color: #fff;
-    width: 100%;
-    height: 850px;
+    height: 875px;
     margin: 0;
     
 }
@@ -133,24 +147,19 @@ footer {
 
 #slide3{    
     color: #fff;
-    width: 100%;
-    height: 670px;
+    height: 550px;
     margin: 0;
     background-size: cover;
 }
  
 #slide4{
     background-color: #000;
-    width: 100%;
-    height: 700px;
+    height: 610px;
     color: #333333;
-    margin: 0 auto;
+    margin-right: 0;
 }
 }
-
-
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
 /*iphone 6*/
   .paragraph1 p, #slide3 p, #slide4 li, #slide2 p {
     font-size: 10vw;
@@ -193,6 +202,7 @@ footer {
     background: #000;
     position: fixed;
     opacity: 1.0;
+    z-index: 9999;
   }
 
   header h1 {

@@ -44,6 +44,11 @@ body {
     margin: 0;
 }
 
+header {
+  position: fixed;
+  z-index: 9999;
+}
+
 #nav {
   position: fixed;
   display: inline;
